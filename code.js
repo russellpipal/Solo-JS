@@ -20,7 +20,7 @@ var numString = "";
 var numTotal = 0;
 
 for (var j=0; j<numList.length; j++){
-  numString += parseInt(numList[j]) + ' ';
+  numString += numList[j].toString() + ' ';
   numTotal += numList[j];
 }
 
